@@ -1,0 +1,3 @@
+string = "I like programming in Python"
+sub_string = string[3:20:3]
+print("Після срізу:",sub_string)
