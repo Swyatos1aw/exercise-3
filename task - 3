@@ -1,0 +1,6 @@
+sentense = str(input("Введіть речення: "))
+words = sentense.split()
+shortest_sentense = min(words,key=len)
+lenth = len(shortest_sentense)
+print("Найкоротше слово:",shortest_sentense )
+print("Довжина найкоротшого слова:",lenth )
