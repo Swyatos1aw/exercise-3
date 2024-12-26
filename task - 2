@@ -1,0 +1,5 @@
+num = str(input("Введіть чотирьох значне число: "))
+while len(num)  < 4   or len(num)>4 or num.isdigit()==0:
+    num = str(input("Введіть число ще раз, вы ввели не чотири значне число або зовсім не число! \n"))
+max_digit = max(int(digit) for digit in num)
+print("Найбільша цифра: ", max_digit)
